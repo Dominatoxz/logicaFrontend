@@ -1,0 +1,20 @@
+/* reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elemento: todos os elementos html são mencionados sem . ou # */
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #000924;
+    background: linear-gradient(192deg,rgba(0, 9, 36, 1) 0%, rgba(9, 84, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    padding: 1rem 2rem;
+}
